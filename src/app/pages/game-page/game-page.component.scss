@@ -1,0 +1,11 @@
+.game-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	
+	&__title {
+		font-size: 2rem;
+		color: #333;
+	}
+} 

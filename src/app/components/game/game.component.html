@@ -1,0 +1,10 @@
+<div class="game">
+	<div class="game__dice-container">
+		<app-dice 
+			*ngFor="let dice of diceStates" 
+			[value]="dice.value"
+			[color]="dice.color"
+			class="game__dice"
+		></app-dice>
+	</div>
+</div> 

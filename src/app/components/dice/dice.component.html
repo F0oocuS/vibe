@@ -1,0 +1,5 @@
+<div class="dice" [class]="'dice--' + color">
+	<div class="dice__face" [attr.data-value]="value">
+		<div class="dice__dot" *ngFor="let dot of [].constructor(value)"></div>
+	</div>
+</div> 
